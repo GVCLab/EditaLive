@@ -1,8 +1,20 @@
 <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 226" width="100%" height="140" role="img" aria-labelledby="title desc">
   <title id="title">EditaLive!</title>
   <desc id="desc">The EditaLive wordmark from the project website.</desc>
-  <foreignObject x="0" y="0" width="2000" height="226">
+  <foreignObject x="0" y="0" width="1800" height="226">
     <div xmlns="http://www.w3.org/1999/xhtml" class="wordmark-canvas">
+      <svg xmlns="http://www.w3.org/2000/svg" class="decor-sticker sticker-star-left" viewBox="0 0 100 100" aria-hidden="true">
+        <path d="M50 8 62 36 92 39 69 59 76 89 50 73 24 89 31 59 8 39 38 36Z" fill="#f3c76d" stroke="#fffdf8" stroke-width="16" stroke-linejoin="round"/>
+        <path d="M50 8 62 36 92 39 69 59 76 89 50 73 24 89 31 59 8 39 38 36Z" fill="#f3c76d" stroke="#b67e2d" stroke-width="3" stroke-linejoin="round"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="decor-sticker sticker-heart-left" viewBox="0 0 100 100" aria-hidden="true">
+        <path d="M50 85S13 63 13 35C13 17 36 10 50 28 64 10 87 17 87 35 87 63 50 85 50 85Z" fill="#ee9eb8" stroke="#fffdf8" stroke-width="16" stroke-linejoin="round"/>
+        <path d="M50 85S13 63 13 35C13 17 36 10 50 28 64 10 87 17 87 35 87 63 50 85 50 85Z" fill="#ee9eb8" stroke="#a95d77" stroke-width="3" stroke-linejoin="round"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="decor-sticker sticker-spark-left" viewBox="0 0 100 100" aria-hidden="true">
+        <path d="M50 8C54 33 67 46 92 50 67 54 54 67 50 92 46 67 33 54 8 50 33 46 46 33 50 8Z" fill="#79cbbd" stroke="#fffdf8" stroke-width="15" stroke-linejoin="round"/>
+        <path d="M50 8C54 33 67 46 92 50 67 54 54 67 50 92 46 67 33 54 8 50 33 46 46 33 50 8Z" fill="#79cbbd" stroke="#418d83" stroke-width="3" stroke-linejoin="round"/>
+      </svg>
       <div class="display-mark live-display edit-live-mark" aria-label="EditaLive!">
         <span class="sticker-letters" aria-hidden="true">
           <span class="sticker-letter sticker-lilac" data-letter="E">E</span>
@@ -17,6 +29,19 @@
           <span class="sticker-letter sticker-pink" data-letter="!">!</span>
         </span>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" class="decor-sticker sticker-flower-right" viewBox="0 0 100 100" aria-hidden="true">
+        <path d="M50 29C39 6 17 15 25 38 1 38 1 62 25 62 17 85 39 94 50 71 61 94 83 85 75 62 99 62 99 38 75 38 83 15 61 6 50 29Z" fill="#b8aae1" stroke="#fffdf8" stroke-width="14" stroke-linejoin="round"/>
+        <path d="M50 29C39 6 17 15 25 38 1 38 1 62 25 62 17 85 39 94 50 71 61 94 83 85 75 62 99 62 99 38 75 38 83 15 61 6 50 29Z" fill="#b8aae1" stroke="#75679e" stroke-width="3" stroke-linejoin="round"/>
+        <circle cx="50" cy="50" r="12" fill="#f3c76d" stroke="#fffdf8" stroke-width="6"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="decor-sticker sticker-bolt-right" viewBox="0 0 100 100" aria-hidden="true">
+        <path d="M57 7 18 57h27L37 93l45-55H55Z" fill="#ee9079" stroke="#fffdf8" stroke-width="16" stroke-linejoin="round"/>
+        <path d="M57 7 18 57h27L37 93l45-55H55Z" fill="#ee9079" stroke="#af5845" stroke-width="3" stroke-linejoin="round"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="decor-sticker sticker-star-right" viewBox="0 0 100 100" aria-hidden="true">
+        <path d="M50 8 62 36 92 39 69 59 76 89 50 73 24 89 31 59 8 39 38 36Z" fill="#82badd" stroke="#fffdf8" stroke-width="16" stroke-linejoin="round"/>
+        <path d="M50 8 62 36 92 39 69 59 76 89 50 73 24 89 31 59 8 39 38 36Z" fill="#82badd" stroke="#4d82a7" stroke-width="3" stroke-linejoin="round"/>
+      </svg>
     </div>
     <style xmlns="http://www.w3.org/1999/xhtml">
       @font-face {
@@ -31,13 +56,46 @@
 
       .wordmark-canvas {
         --white: #fffdf8;
-        width: 2000px;
+        position: relative;
+        width: 1800px;
         height: 226px;
         display: grid;
         place-items: center;
         overflow: hidden;
         background: transparent;
         font-feature-settings: "kern" 1, "liga" 1;
+      }
+
+      .decor-sticker {
+        --tilt: 0deg;
+        --float-x: 7px;
+        --float-y: 10px;
+        --wobble: 3deg;
+        position: absolute;
+        z-index: 1;
+        overflow: visible;
+        filter: drop-shadow(0 8px 5px rgba(96,72,66,.17));
+        transform-origin: center;
+        animation: decor-sticker-float 5.8s ease-in-out -1.4s infinite;
+        will-change: transform;
+      }
+
+      .sticker-star-left { left: 94px; top: 38px; width: 82px; --tilt: -11deg; --float-x: 8px; --float-y: 11px; --wobble: 3deg; animation-duration: 6.4s; }
+      .sticker-heart-left { left: 260px; top: 127px; width: 62px; --tilt: 9deg; --float-x: 6px; --float-y: 8px; --wobble: 4deg; animation-delay: -4.2s; animation-duration: 5.5s; animation-direction: reverse; }
+      .sticker-spark-left { left: 382px; top: 30px; width: 54px; --tilt: 8deg; --float-x: 5px; --float-y: 12px; --wobble: 5deg; animation-delay: -2.7s; animation-duration: 7.1s; }
+      .sticker-flower-right { right: 376px; top: 25px; width: 66px; --tilt: -8deg; --float-x: 7px; --float-y: 9px; --wobble: 3deg; animation-delay: -5.1s; animation-duration: 6.8s; animation-direction: reverse; }
+      .sticker-bolt-right { right: 245px; top: 120px; width: 61px; --tilt: 10deg; --float-x: 5px; --float-y: 10px; --wobble: 4deg; animation-delay: -.6s; animation-duration: 5.9s; }
+      .sticker-star-right { right: 91px; top: 42px; width: 76px; --tilt: 12deg; --float-x: 9px; --float-y: 12px; --wobble: 3deg; animation-delay: -3.5s; animation-duration: 7.4s; animation-direction: reverse; }
+
+      @keyframes decor-sticker-float {
+        0%, 100% { transform: translate3d(0, 2px, 0) rotate(var(--tilt)); }
+        25% { transform: translate3d(var(--float-x), calc(0px - var(--float-y)), 0) rotate(calc(var(--tilt) + var(--wobble))); }
+        50% { transform: translate3d(0, -4px, 0) rotate(var(--tilt)); }
+        75% { transform: translate3d(calc(0px - var(--float-x)), calc(0px - var(--float-y)), 0) rotate(calc(var(--tilt) - var(--wobble))); }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .decor-sticker { animation: none; transform: rotate(var(--tilt)); }
       }
 
       .display-mark {
