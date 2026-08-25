@@ -1,6 +1,6 @@
-<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 226" width="100%" height="140" role="img" aria-labelledby="title desc">
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 226" width="100%" height="140" role="img" aria-labelledby="title desc">
   <title id="title">EditaLive!</title>
-  <desc id="desc">The animated EditaLive wordmark from the project website.</desc>
+  <desc id="desc">The EditaLive wordmark from the project website.</desc>
   <foreignObject x="0" y="0" width="2000" height="226">
     <div xmlns="http://www.w3.org/1999/xhtml" class="wordmark-canvas">
       <div class="display-mark live-display edit-live-mark" aria-label="EditaLive!">
@@ -79,9 +79,6 @@
       .sticker-letter {
         --sticker-color: #b9a7e5;
         --sticker-edge: #76669c;
-        --float-x: .012em;
-        --float-y: .026em;
-        --float-r: .26deg;
         position: relative;
         display: inline-block;
         color: var(--sticker-color);
@@ -100,20 +97,7 @@
           -.05em .05em 0 var(--white),
           0 .062em 0 var(--white),
           .05em .05em 0 var(--white);
-        transform-origin: 50% 78%;
-        animation: sticker-letter-float 5.4s linear -1.3s infinite;
-        will-change: transform;
       }
-
-      .sticker-letter:nth-child(2) { --float-x: .016em; --float-y: .021em; --float-r: .32deg; animation-delay: -4.6s; animation-duration: 5.9s; animation-direction: reverse; }
-      .sticker-letter:nth-child(3) { --float-x: .009em; --float-y: .03em; --float-r: .2deg; animation-delay: -1.9s; animation-duration: 5.1s; }
-      .sticker-letter:nth-child(4) { --float-x: .014em; --float-y: .023em; --float-r: .36deg; animation-delay: -5.4s; animation-duration: 6.2s; animation-direction: reverse; }
-      .sticker-letter:nth-child(5) { --float-x: .01em; --float-y: .028em; --float-r: .24deg; animation-delay: -3.4s; animation-duration: 5.7s; }
-      .sticker-letter:nth-child(6) { --float-x: .015em; --float-y: .02em; --float-r: .3deg; animation-delay: -1.1s; animation-duration: 6.4s; animation-direction: reverse; }
-      .sticker-letter:nth-child(7) { --float-x: .011em; --float-y: .032em; --float-r: .22deg; animation-delay: -4.1s; animation-duration: 5.3s; }
-      .sticker-letter:nth-child(8) { --float-x: .017em; --float-y: .024em; --float-r: .34deg; animation-delay: -2.2s; animation-duration: 6s; animation-direction: reverse; }
-      .sticker-letter:nth-child(9) { --float-x: .01em; --float-y: .029em; --float-r: .25deg; animation-delay: -3.7s; animation-duration: 5.6s; }
-      .sticker-letter:nth-child(10) { --float-x: .013em; --float-y: .022em; --float-r: .31deg; animation-delay: -.3s; animation-duration: 6.1s; animation-direction: reverse; }
 
       .sticker-letter + .sticker-letter { margin-left: -.025em; }
       .sticker-letter.sticker-word-gap { margin-left: .075em; }
@@ -125,16 +109,6 @@
       .sticker-coral { --sticker-color: #ee9079; --sticker-edge: #af5845; }
       .sticker-blue { --sticker-color: #82badd; --sticker-edge: #4d82a7; }
 
-      @keyframes sticker-letter-float {
-        0%, 100% { transform: translate3d(calc(0em - var(--float-x)), 0, 0) rotate(calc(0deg - var(--float-r))); }
-        25% { transform: translate3d(0, calc(0em - var(--float-y)), 0) rotate(0); }
-        50% { transform: translate3d(var(--float-x), 0, 0) rotate(var(--float-r)); }
-        75% { transform: translate3d(0, .018em, 0) rotate(0); }
-      }
-
-      @media (prefers-reduced-motion: reduce) {
-        .sticker-letter { animation: none; }
-      }
     </style>
   </foreignObject>
 </svg>
