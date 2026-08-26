@@ -4,7 +4,7 @@
 
 <h2>Unified Character Video Editing for Live Streaming</h2>
 
-#### [Zhiyuan Li<sup>1,3</sup>](https://huai-chang.github.io/) · [Chi-Man Pun<sup>1,📪</sup>](https://cmpun.github.io/) · Peng-Tao Jiang<sup>2,📪</sup> · Bo Li<sup>2</sup> · [Xiaodong Cun<sup>3,🚩</sup>](https://vinthony.github.io/academic/)
+#### [Zhiyuan Li<sup>1,3</sup>](https://huai-chang.github.io/) · [Chi-Man Pun<sup>1,📪</sup>](https://cmpun.github.io/) · [Peng-Tao Jiang<sup>2,📪</sup>](https://pengtaojiang.github.io/) · [Bo Li<sup>2</sup>](https://libraboli.github.io/) · [Xiaodong Cun<sup>3,🚩</sup>](https://vinthony.github.io/academic/)
 
 <sup>1</sup> University of Macau &nbsp;&nbsp; <sup>2</sup> vivo BlueImage Lab &nbsp;&nbsp; <sup>3</sup> [GVC Lab, Great Bay University](https://gvclab.github.io/)
 
@@ -14,6 +14,16 @@
 <a href="https://huai-chang.github.io/EditaLive/"><img src="https://img.shields.io/badge/Project-Page-green"></a>
 <a href='https://huai-chang.github.io/EditaLive/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Coming Soon-ffc107'></a> 
 <a href='https://huai-chang.github.io/EditaLive/'><img src='https://img.shields.io/badge/ModelScope-Coming Soon-624AFF'></a>
+
+<video
+  src="assets/showreel.mp4"
+  autoplay
+  muted
+  loop
+  playsinline
+  controls
+  style="max-width: 100%; display: block;">
+</video>
 
 </div>
 
@@ -55,4 +65,4 @@ If you find PersonaLive useful for your research, welcome to cite our work using
 ``` -->
 
 ## ❤️ Acknowledgement
-This code is mainly built upon [Wan-Animate](https://humanaigc.github.io/wan-animate/), [VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun/), and [FastVideo](https://github.com/hao-ai-lab/FastVideo/), thanks to their invaluable contributions.
+This repository is mainly built upon [Wan-Animate](https://humanaigc.github.io/wan-animate/), [VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun/), [LightX2V](https://github.com/modeltc/lightx2v), and [FastVideo](https://github.com/hao-ai-lab/FastVideo/), thanks to their invaluable contributions.
