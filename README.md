@@ -16,11 +16,7 @@
 <a href='https://huai-chang.github.io/EditaLive/'><img src='https://img.shields.io/badge/ModelScope-Coming Soon-624AFF'></a>
 
 <video
-  src="assets/showreel.mp4"
-  autoplay
-  muted
-  loop
-  playsinline
+  src="https://github.com/user-attachments/assets/5177ed40-6453-463a-a546-80c24e67baaf"
   controls
   style="max-width: 100%; display: block;">
 </video>
