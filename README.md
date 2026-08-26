@@ -36,6 +36,11 @@
 
 The code, pretrained weights, and detailed installation and inference instructions are being prepared for public release. Please watch this repository for updates.
 
+## ⚙️ Framework
+<img src="assets/overview.png" alt="Image 1" width="100%">
+
+<img src="assets/alignforcing.png" alt="Image 2" width="100%">
+
 <!-- ## 📝 Citation
 
 If you find PersonaLive useful for your research, welcome to cite our work using the following BibTeX:
