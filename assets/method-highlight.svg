@@ -1,35 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 112" width="1900" height="112" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 16 1760 90" width="100%" role="img" aria-labelledby="title desc">
   <title id="title">EditaLive method highlight</title>
   <desc id="desc">Real-Time, Streamable, Infinite-Length Character Video Editing at 14.47 FPS</desc>
 
-  <path
-    d="M44 10 17 59h25L31 102l43-57H50L64 10Z"
-    fill="#FFC83D"
-    stroke="#E7A923"
-    stroke-width="2"
-    stroke-linejoin="round"
-    transform="translate(50 0)"
-  />
+  <defs>
+    <filter id="sticker-shadow" x="-5%" y="-30%" width="110%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="4" stdDeviation="2" flood-color="#7D2028" flood-opacity=".24"/>
+    </filter>
+    <path id="bolt" d="M44 10 17 59h25L31 102l43-57H50L64 10Z"/>
+  </defs>
 
-  <text
-    x="950"
-    y="72"
-    fill="#FF414B"
-    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
-    font-size="42"
-    font-weight="800"
-    letter-spacing="-0.6"
-    text-anchor="middle"
-    textLength="1600"
-    lengthAdjust="spacingAndGlyphs"
-  >Real-Time, Streamable, Infinite-Length Character Video Editing at 14.47 FPS</text>
+  <g transform="translate(-70 0)" filter="url(#sticker-shadow)">
+    <use href="#bolt" transform="translate(78 20) scale(.65)" fill="#FFC83D" stroke="#FFFDF8" stroke-width="12" stroke-linejoin="round" paint-order="stroke fill"/>
+    <use href="#bolt" transform="translate(78 20) scale(.65)" fill="#FFC83D" stroke="#E7A923" stroke-width="2.5" stroke-linejoin="round" paint-order="stroke fill"/>
 
-  <path
-    d="M44 10 17 59h25L31 102l43-57H50L64 10Z"
-    fill="#FFC83D"
-    stroke="#E7A923"
-    stroke-width="2"
-    stroke-linejoin="round"
-    transform="translate(1850 0) scale(-1 1)"
-  />
+    <text
+      x="950"
+      y="72"
+      fill="#FF414B"
+      stroke="#FFFDF8"
+      stroke-width="12"
+      stroke-linejoin="round"
+      paint-order="stroke fill"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+      font-size="42"
+      font-weight="800"
+      letter-spacing="-0.6"
+      text-anchor="middle"
+      textLength="1600"
+      lengthAdjust="spacingAndGlyphs"
+    >Real-Time, Streamable, Infinite-Length Character Video Editing at 14.47 FPS</text>
+    <text
+      x="950"
+      y="72"
+      fill="#FF414B"
+      stroke="#C52F3A"
+      stroke-width="1.8"
+      stroke-linejoin="round"
+      paint-order="stroke fill"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+      font-size="42"
+      font-weight="800"
+      letter-spacing="-0.6"
+      text-anchor="middle"
+      textLength="1600"
+      lengthAdjust="spacingAndGlyphs"
+    >Real-Time, Streamable, Infinite-Length Character Video Editing at 14.47 FPS</text>
+
+    <use href="#bolt" transform="translate(1822 20) scale(-.65 .65)" fill="#FFC83D" stroke="#FFFDF8" stroke-width="12" stroke-linejoin="round" paint-order="stroke fill"/>
+    <use href="#bolt" transform="translate(1822 20) scale(-.65 .65)" fill="#FFC83D" stroke="#E7A923" stroke-width="2.5" stroke-linejoin="round" paint-order="stroke fill"/>
+  </g>
 </svg>
