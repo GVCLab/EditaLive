@@ -10,7 +10,7 @@
 
 <sup>📪</sup> Corresponding authors &nbsp;&nbsp; <sup>🚩</sup> Project lead
 
-<a href='https://arxiv.org/pdf/2608.27123'><img src='https://img.shields.io/badge/ArXiv-red'></a> 
+<a href='https://arxiv.org/pdf/2608.27123'><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> 
 <a href="https://huai-chang.github.io/EditaLive/"><img src="https://img.shields.io/badge/Project-Page-green"></a>
 <a href='https://huai-chang.github.io/EditaLive/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Coming Soon-ffc107'></a> 
 <a href='https://huai-chang.github.io/EditaLive/'><img src='https://img.shields.io/badge/ModelScope-Coming Soon-624AFF'></a>
