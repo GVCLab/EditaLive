@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 112" width="1900" height="112" role="img" aria-labelledby="title desc">
+  <title id="title">EditaLive method highlight</title>
+  <desc id="desc">Real-Time, Streamable, Infinite-Length Character Video Editing at 14.47 FPS</desc>
+
+  <path
+    d="M44 10 17 59h25L31 102l43-57H50L64 10Z"
+    fill="#FFC83D"
+    stroke="#E7A923"
+    stroke-width="2"
+    stroke-linejoin="round"
+    transform="translate(50 0)"
+  />
+
+  <text
+    x="950"
+    y="72"
+    fill="#FF414B"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+    font-size="42"
+    font-weight="800"
+    letter-spacing="-0.6"
+    text-anchor="middle"
+    textLength="1600"
+    lengthAdjust="spacingAndGlyphs"
+  >Real-Time, Streamable, Infinite-Length Character Video Editing at 14.47 FPS</text>
+
+  <path
+    d="M44 10 17 59h25L31 102l43-57H50L64 10Z"
+    fill="#FFC83D"
+    stroke="#E7A923"
+    stroke-width="2"
+    stroke-linejoin="round"
+    transform="translate(1850 0) scale(-1 1)"
+  />
+</svg>

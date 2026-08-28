@@ -15,6 +15,8 @@
 <a href='https://huai-chang.github.io/EditaLive/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Coming Soon-ffc107'></a> 
 <a href='https://huai-chang.github.io/EditaLive/'><img src='https://img.shields.io/badge/ModelScope-Coming Soon-624AFF'></a>
 
+<img src="assets/method-highlight.svg" alt="⚡ Real-Time, Streamable, Infinite-Length Character Video Editing at 14.47 FPS ⚡" width="100%">
+
 <video
   src="https://github.com/user-attachments/assets/5177ed40-6453-463a-a546-80c24e67baaf"
   controls
@@ -29,7 +31,7 @@
 - [ ] We are doing our best to organize and polish the code for public release 🏃💨. Thank you for your interest and patience 🙏.
 - [ ] Release `training code`.
 - [ ] Release `inference code`, `config`, and `pretrained weights`.
-- [ ] Release `paper`.
+- [x] **[2026.08.27]** 🔥 Release `paper`.
 
 ## ⚖️ Disclaimer
 
