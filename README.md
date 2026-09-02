@@ -13,7 +13,8 @@
 <a href='https://arxiv.org/pdf/2608.27123'><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> 
 <a href="https://huai-chang.github.io/EditaLive/"><img src="https://img.shields.io/badge/Project-Page-green"></a>
 <a href='https://huai-chang.github.io/EditaLive/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Coming Soon-ffc107'></a> 
-<a href='https://huai-chang.github.io/EditaLive/'><img src='https://img.shields.io/badge/ModelScope-Coming Soon-624AFF'></a>
+<a href='https://huai-chang.github.io/EditaLive/'><img src='https://img.shields.io/badge/ModelScope-Coming Soon-624AFF'></a> 
+[![GitHub](https://img.shields.io/github/stars/GVCLab/PersonaLive?style=social)](https://github.com/GVCLab/EditaLive)
 
 <img src="assets/method-highlight.svg" alt="⚡ Real-Time, Streamable, Infinite-Length Character Video Editing at 14.47 FPS ⚡" width="100%">
 
