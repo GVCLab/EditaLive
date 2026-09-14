@@ -1,0 +1,19 @@
+{
+  "name": "editalive-webcam",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "2.5.3",
+    "svelte": "4.2.20",
+    "svelte-check": "3.8.6",
+    "typescript": "5.6.3",
+    "vite": "4.5.14"
+  }
+}

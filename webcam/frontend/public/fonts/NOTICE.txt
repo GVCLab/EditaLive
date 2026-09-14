@@ -1,0 +1,3 @@
+Fredoka, copyright The Fredoka Project Authors, licensed under the SIL Open Font License (OFL.txt).
+
+The font is bundled locally to match https://huai-chang.github.io/EditaLive/.

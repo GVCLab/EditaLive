@@ -1,0 +1,12 @@
+[
+    {
+        "id": "case_1",
+        "video": "./demo/demo_1.mp4",
+        "prompt": "Transform it into a soft plush-like aesthetic with smooth textures and gentle shading."
+    },
+    {
+        "id": "case_2",
+        "folder": "./demo/demo_1",
+        "prompt": "Transform it into a soft plush-like aesthetic with smooth textures and gentle shading."
+    }
+]

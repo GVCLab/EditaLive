@@ -1,0 +1,34 @@
+# EditaLive streaming inference and raw-video preprocessing.
+# Audited on Python 3.10, PyTorch 2.6.0, CUDA 12.4.
+#
+# Install the CUDA build of PyTorch first when creating a fresh environment:
+#   pip install torch==2.6.0 torchvision==0.21.0 \
+#     --index-url https://download.pytorch.org/whl/cu124
+
+# Core model and inference
+torch==2.6.0
+torchvision==0.21.0
+accelerate==1.12.0
+diffusers==0.37.0
+transformers==4.57.3
+safetensors==0.7.0
+huggingface-hub==0.36.2
+sentencepiece==0.2.1
+einops==0.8.1
+easydict==1.13
+
+# Numeric, image, and video I/O
+numpy==1.26.4
+scipy==1.15.3
+Pillow==11.3.0
+opencv-python-headless==4.9.0.80
+decord==0.6.0
+imageio[ffmpeg]==2.37.2
+tqdm==4.67.1
+packaging==25.0
+
+# Raw driving-video preprocessing
+onnxruntime-gpu==1.20.2
+moviepy==2.2.1
+loguru==0.7.3
+matplotlib==3.10.8
